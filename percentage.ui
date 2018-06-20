@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>percentage</class>
+ <widget class="QDialog" name="percentage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>966</width>
+    <height>959</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>929</width>
+        <height>1564</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);
+font: 75 9pt &quot;Myanmar Text&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;1.What will be the fraction of 20%&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;(A)1/4 (B)1/5 (C)1/10 (D)None of above&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;Answer: Option B&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;Explanation:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;It will 20*1/100 = 1/5&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;2.The ratio 5:20 expressed as percent equals to&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;(A)50 % (B)125 % (C)25 % (D)None of above&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;Answer: Option C&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;Explanation:Actually it means 5 is what percent of 20, which can be calculated as,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;(5/20)*100 = 5 * 5 = 25&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;3. Half of 1 percent written as decimal is&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;(A)5 (B)0.5 (C)0.05 (D)0.005&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;Answer: Option D&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;Explanation:It will be 1/2(1%) = 1/2(1/100) = 1/200 = 0.005&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;4.What is 15 percent of 34&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;(A)5.10 (B)4.10 (C)3.10 (D)2.10&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;Answer: Option A&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#aaaaff;&quot;&gt;Explanation:It will be 15% of 34= (15/100) * 34 = 5.10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 75 11pt &quot;Nirmala UI&quot;;
+background-color: rgb(255, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;PERCENTAGE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">
+font: 75 10pt &quot;MS PGothic&quot;;
+background-color: rgb(85, 0, 127);</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;Percent implies “for every hundred”.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;% is read as percentage and x % is read as x per cent.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;2. To calculate p % of y&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;(p/100) x y = (p x y)/100&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;p % of y = y % of p&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;3. To find what percentage of x is y: y/x × 100&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;4. To calculate percentage change in value&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;Percentage change = {change/(initial value)} x 100&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;5. Percentage point change = Difference of two percentage figures&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;6. Increase N by S % = N( 1+ S/100 )&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">
+font: 75 10pt &quot;MS PGothic&quot;;
+background-color: rgb(85, 0, 127);</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;7. Decrease N by S % = N (1 – S/100)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;8. If the value of an item goes up/down by x%, the percentage &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;reduction/increment to be now made to bring it back to &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;\the original point is 100x/ (100 + x) %.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;9. If A is x% more /less than B, then B is 100x/(100 + x) % less/more than A.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;10. If the price of an item goes up/down by x %, then the quantity consumed should be &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;reduced by 100x/ (100 + x)% so that the total &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;expenditure remains the same.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;11. Successive Percentage Change&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;If there are successive percentage increases of a % and b%, &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;the effective percentage increase is:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffaa00;&quot;&gt;{(a + b + (ab/100)}%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Back to List of topics</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

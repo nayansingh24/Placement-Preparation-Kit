@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>timeanddistance</class>
+ <widget class="QDialog" name="timeanddistance">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>956</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1501</width>
+        <height>1882</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 170, 0);
+font: 75 14pt &quot;MV Boli&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffff7f;&quot;&gt;Solved Questions&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 85, 0);
+border-color: rgb(255, 0, 0);
+background-color: rgb(170, 170, 0);
+background-color: rgb(0, 85, 255);
+text-decoration: line-through;
+font: 75 11pt &quot;MV Boli&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="3">
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 199, 57);
+</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;Question&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;The distance between two cities A and B is 330 Km. A train starts from A at 8 a.m. and travel towards B at 60 km/hr. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;Another train starts from B at 9 a.m and travels towards A at 75 Km/hr. At what time do they meet? ( IBPS PO 2012)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;Solution - A started at 8 a.m. and he covered 60 km by the time B started its journey.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;Remaining distance = 330-60 = 270 km&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;Relative speed = 60 + 75 = 135 km/h ( We added both speed as they were running in same direction.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;Now they will meet after 270/135 = 2 hours now they will meet at 9 a.m. + 2 hours = 11 a.m. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;Question &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;A and B walk a circulate track. They start at 8 a.m. from the same point in the opposite directions. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;A and B walk at a speed of 2 rounds per hour and 3 rounds per hour respectively. How many times shall they cross each other before 9.46 a.m?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;Solution - A and B shall meet 5 times in an hour. So they meet after every 12 minutes.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;For 6th time they meet at = 9:12 a.m.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;For 7th time they meet at = 9:24 a.m.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;For 8th time they meet at = 9:36 a.m.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;For 9th time they meet at = 9:48 a.m.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#550000;&quot;&gt;It's clear from above that by 9:46. they will meet for 8 times.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 75 14pt &quot;Myanmar Text&quot;;
+background-color: rgb(120, 118, 68);</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#00ffff;&quot;&gt;Time and distance&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(85, 0, 127);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 8pt &quot;MV Boli&quot;;
+font: 8pt &quot;Pristina&quot;;
+font: 75 10pt &quot;Palatino Linotype&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#bde6ff;&quot;&gt;Important Formulas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="3">
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 127);</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Speed is a very basic concept in motion which is all about how fast or slow any object moves. We define speed as distance divided by time.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Distance is directly proportional to Velocity when time is constant.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Speed Distance Time formula mathematically written as:- Speed = distance/time&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Formula of Time :-time = distance/ Speed&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;So Formula of time is, time is equal to distance upon speed.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Formula of Distance:-Distance = (Speed * Time)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Distance = Rate x Time&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;To find rate, divide through on both sides by time:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Rate = Distance/Time&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Rate is distance (given in units such as miles, feet, kilometers, meters, etc.) divided by time (hours, minutes, seconds, etc.). Rate can always be written as&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;a fraction that has distance units in the numerator and time units in the denominator, e.g., 25 miles/1 hour.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;So distance is simply speed into time.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Note: All three formulae that formula of speed, formula of time and formula of distance are interrelated.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Convert from kph (km/h) to mps(m/sec)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;For converting kph(kilometre per hour) to mps(meter per second) we use following formula&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;x km/hr=(x∗5/18) m/sec&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Convert from mps(m/sec) to kph(km/h)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;For converting mps(meter per second) to kph(kilometre per hour) we use following formula&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;x m/sec= X *(18/5) km/h&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;If the ratio of the speeds of A and B is a : b, then the ratio of the times taken by then to cover the same distance is :1/a : 1/b or b : a &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Suppose a man covers a certain distance at x km/hr and an equal distance at y km/hr. Then,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;the average speed during the whole journey is :- 2xy/(x + y) &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Relation between time, distance and speed: Speed is distance covered by a moving object in unit time: Speed= Distance covered/ Time Taken&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Rule : 1: Ratio of the varying components when other is constant: Consider 2 objects A and B having speed Sa, Sb.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Let the distance travelled by them are Da and Db respectively and time taken to cover these distances be Ta and Tb respectively.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Let's see the relation between time, distance and speed when one of them is kept constant&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;When speed is constant distance covered by the object is directly proportional to the time taken.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;ie; If Sa=Sb then Da/Db = Ta/Tb&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;When time is constant speed is directly proportional to the distance travelled. ie; If Ta=Tb then Sa/Sb=Da/Db&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;When distance is constant speed is inversely proportional to the time taken ie if speed increases then time taken to cover the distance decreases. ie; &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;If Da=Db then Sa/Sb= Tb/Ta&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;Rule 2: We know that when distance travelled is constant, speed of the object is inversely proportional to time taken&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;If the speeds given are in Harmonic progression or HP then the corresponding time taken will be in Arithmetic progression or AP&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#4a183e;&quot;&gt;If the speeds given are in AP then the corresponding time taken is in HP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Back to List of Topics</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

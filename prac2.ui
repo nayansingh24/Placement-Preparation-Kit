@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>prac2</class>
+ <widget class="QDialog" name="prac2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>493</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(138, 171, 202, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>440</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+font: 75 12pt &quot;Nirmala UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Back </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>0</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;PRACTICE QUESTIONS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>731</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Q-A part of each sentence is underlined. Choose the right option to replace the&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;underlined part. If no change is required, choose the option &amp;quot;The sentence is correct as given&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;1. Unless I'm &lt;/span&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline;&quot;&gt;grossly mistaken&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;, the store is usually closed on Sundays.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;2. The first robot that can sense and show emotions&lt;/span&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline;&quot;&gt; is developed &lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;as the ultimate interactive toy.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;3. A government employee has to work for some hours a day and can avail himself of only &lt;/span&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline;&quot;&gt;a fixed number of holidays.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;4. Haridas Kumar Pal's battered Fiat car was &lt;/span&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline;&quot;&gt;alongside&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; the garage.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(a) Until I'm grossly mistaken</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>170</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(b) Until I'm greatly mistaken</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_3">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>170</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(c) Unless I'm grossly mistook</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_4">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>170</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(d) Unlessl I'm grossly mistaked</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(e)The sentence is correct as given.</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(a)was developed</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_7">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>240</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(b) is now developed</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_8">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>240</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(c) is being developed</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_9">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>240</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(d)were being developed</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_10">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>240</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(e)The sentence is correct as given.</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_11">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>300</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(e)The sentence is correct as given.</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_12">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>370</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(e)The sentence is correct as given.</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_13">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(a)a given number</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_14">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>300</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(b)a specified number</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_15">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>300</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(c)an unscheduled number</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_16">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>300</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(d)some number</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_17">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(a)along side</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_18">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>370</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(b)alongside of</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_19">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>370</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(c)alongside with</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_20">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>370</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(d)along side to</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>radioButton</zorder>
+  <zorder>radioButton_2</zorder>
+  <zorder>radioButton_3</zorder>
+  <zorder>radioButton_4</zorder>
+  <zorder>radioButton_5</zorder>
+  <zorder>radioButton_6</zorder>
+  <zorder>radioButton_7</zorder>
+  <zorder>radioButton_8</zorder>
+  <zorder>radioButton_9</zorder>
+  <zorder>radioButton_10</zorder>
+  <zorder>radioButton_11</zorder>
+  <zorder>radioButton_12</zorder>
+  <zorder>radioButton_13</zorder>
+  <zorder>radioButton_14</zorder>
+  <zorder>radioButton_15</zorder>
+  <zorder>radioButton_16</zorder>
+  <zorder>radioButton_17</zorder>
+  <zorder>radioButton_18</zorder>
+  <zorder>radioButton_19</zorder>
+  <zorder>radioButton_20</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
